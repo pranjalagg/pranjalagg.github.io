@@ -124,6 +124,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: thoughts # blog_name will be displayed in your blog page
 blog_description: science and beyond
+blog_note: my old ideas and notes would be up here someday
 permalink: /blog/:year/:title/
 
 # Pagination
