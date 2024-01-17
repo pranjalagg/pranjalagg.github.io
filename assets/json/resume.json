@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Pranjal Aggarwal",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "first [dot] last [at] colorado [dot] edu",
+    "phone": "",
+    "url": "",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "Glenwood Dr",
+      "postalCode": "80301",
+      "city": "Boulder",
       "countryCode": "US",
-      "region": "California"
+      "region": "Colorado"
     },
     "profiles": [
       {
@@ -24,13 +24,22 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "International Business Machines (IBM)",
+      "position": "Application Developer",
+      "url": "https://www.ibm.com/",
+      "startDate": "2022-05-27",
+      "endDate": "2023-07-24",
+      "summary": "As a Salesforce Developer, gained valuable experience in the configuration and customization of Salesforce, including creating custom objects, defining record types, and implementing validation rules. My contributions were pivotal in optimizing our Salesforce environment for enhanced functionality and efficiency.",
+      "highlights": ""//["Relativity"]
+    },
+    {
+      "name": "International Business Machines (IBM)",
+      "position": "Intern",
+      "url": "https://www.ibm.com/",
+      "startDate": "2022-01-12",
+      "endDate": "2023-05-11",
+      "summary": "Worked as a shadow resource to transform the management system for NextEra Energy's Florida Power and Light (FPL) division.",
+      "highlights": ""
     }
   ],
   "volunteer": [
