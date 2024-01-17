@@ -66,6 +66,29 @@
       "courses": ["Theory of Relativity"]
     }
   ],
+  "publications": [
+    {
+      "name": "Tldsmi: Genetic Algorithm Based Network for Text Localization in Distorted Social Media Images",
+      "publisher": "The Social Science Research Network",
+      "releaseDate": "2023-02-05",
+      "url": "http://dx.doi.org/10.2139/ssrn.4348525",
+      "summary": ""
+    },
+    {
+      "name": "Hope Speech Detection on Social Media Platforms",
+      "publisher": "Chapman and Hall/CRC",
+      "releaseDate": "2022-11-14",
+      "url": "https://arxiv.org/abs/2212.07424",
+      "summary": ""
+    },
+    {
+      "name": "Random Decision Forest Approach for Mitigating SQL Injection Attacks",
+      "publisher": "2021 IEEE CONECCT",
+      "releaseDate": "2021-07-09",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9622689",
+      "summary": "Best Paper Award"
+    }
+  ],
   "awards": [
     {
       "title": "Nobel Prize in Physics",
@@ -119,47 +142,47 @@
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Software",
+      "level": "Proficient",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "python",
+        "c++",
+        "oop",
+        "git"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "Familiar",
+      "icon":"fa-solid fa-calendar",
+      "keywords": [
+        "node.js",
+        "html/css",
+        "matlab",
+        "R"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "Other",
+      "icon": "fa-solid fa-clipboard-check",
+      "keywords": [
+        "Scikit-learn",
+        "TensorFlow",
+        "Keras",
+        "OpenCV",
+        "NumPy",
+        "Pandas",
+        "Open Source Contribution"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Hindi",
       "fluency": "Native speaker",
       "icon": ""
     },
