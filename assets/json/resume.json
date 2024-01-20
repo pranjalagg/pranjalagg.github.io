@@ -22,6 +22,30 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "University of Colorado Boulder",
+      "location": "Colorado, USA",
+      "url": "https://www.colorado.edu",
+      "area": "Computer Science",
+      "studyType": "MS",
+      "startDate": "2023-08-20",
+      "endDate": "2025-05-20",
+      "score": "4",
+      "courses": ["Design and Analysis of Algorithms", "Natural Language Processing (NLP)", "Computer Vision", "Linux System Administration"]
+    },
+    {
+      "institution": "Indian Institute of Information Technology (IIIT), Dharwad",
+      "location": "Karnataka, India",
+      "url": "https://www.iiitdwd.ac.in",
+      "area": "Computer Science and Engineering",
+      "studyType": "BTech",
+      "startDate": "2018-08-13",
+      "endDate": "2022-05-27",
+      "score": "8.74",
+      "courses": "" //["Data Structures and Algorithms", "Machine Learning", "Cloud Computing", "Linear Algebra", "Discrete Mathematics", "Probability - I, II", "Statistics - I, II"]
+    }
+  ],
   "work": [
     {
       "name": "International Business Machines (IBM)",
@@ -40,6 +64,38 @@
       "endDate": "2023-05-11",
       "summary": "Worked as a shadow resource to transform the management system for NextEra Energy's Florida Power and Light (FPL) division.",
       "highlights": ""
+    },
+    {
+      "name": "Indian Institute of Technology (IIT) BHU",
+      "position": "Intern",
+      "url": "https://www.iitbhu.ac.in/",
+      "startDate": "2019-06-11",
+      "endDate": "2019-07-22",
+      "summary": "Worked on the project - \"Design and Fabrication of a Brachytherapy Applicator\" which is used in the treatement of cervical cancer.",
+      "highlights": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "Tldsmi: Genetic Algorithm Based Network for Text Localization in Distorted Social Media Images",
+      "publisher": "The Social Science Research Network",
+      "releaseDate": "2023-02-05",
+      "url": "http://dx.doi.org/10.2139/ssrn.4348525",
+      "summary": "Palaiahnakote Shivakumara, Pavan Kumar C, Pranjal Aggarwal, Shubham Sharma, Pasupuleti Chandana, M Basavanna, Umapada Pal, pre-print availabale at SSRN. DOI: http://doi.org/10.2139/ssrn.4348525"
+    },
+    {
+      "name": "Hope Speech Detection on Social Media Platforms",
+      "publisher": "Chapman and Hall/CRC",
+      "releaseDate": "2022-11-14",
+      "url": "https://arxiv.org/abs/2212.07424",
+      "summary": "Pranjal Aggarwal, Jagrut Nemade, Shubham Sharma, Pasupuleti Chandana, Shankar Biradar and Sunil Saumya, Hope Speech Detection on Social Media Platforms, Book Chapter in \"Cyber Crime in Social Media: Theory and Solutions(CCSM)\", August 2022. DOI: https://doi.org/10.1201/9781003304180"
+    },
+    {
+      "name": "Random Decision Forest Approach for Mitigating SQL Injection Attacks",
+      "publisher": "2021 IEEE CONECCT",
+      "releaseDate": "2021-07-09",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9622689",
+      "summary": "Best Paper Award"
     }
   ],
   "volunteer": [
@@ -51,42 +107,6 @@
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "publications": [
-    {
-      "name": "Tldsmi: Genetic Algorithm Based Network for Text Localization in Distorted Social Media Images",
-      "publisher": "The Social Science Research Network",
-      "releaseDate": "2023-02-05",
-      "url": "http://dx.doi.org/10.2139/ssrn.4348525",
-      "summary": ""
-    },
-    {
-      "name": "Hope Speech Detection on Social Media Platforms",
-      "publisher": "Chapman and Hall/CRC",
-      "releaseDate": "2022-11-14",
-      "url": "https://arxiv.org/abs/2212.07424",
-      "summary": ""
-    },
-    {
-      "name": "Random Decision Forest Approach for Mitigating SQL Injection Attacks",
-      "publisher": "2021 IEEE CONECCT",
-      "releaseDate": "2021-07-09",
-      "url": "https://ieeexplore.ieee.org/abstract/document/9622689",
-      "summary": "Best Paper Award"
     }
   ],
   "awards": [
@@ -192,40 +212,74 @@
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  // "interests": [
+  //   {
+  //     "name": "Physics",
+  //     "icon": "fa-solid fa-tag",
+  //     "keywords": [
+  //       "Quantum Mechanics",
+  //       "Quantum Computing",
+  //       "Quantum Information",
+  //       "Quantum Cryptography",
+  //       "Quantum Communication",
+  //       "Quantum Teleportation"
+  //     ]
+  //   }
+  // ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Dr. Shivakumara Palaiahnakote",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Associate Professor, Faculty of Computer Science and Information Technology, University of Malaya (UM), Malaysia"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Prof. Umapada Pal",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Professor and Head, Computer Vision and Pattern Recognition Unit, Indian Statistical Institute (ISI), Kolkata, India"
+    },
+    {
+      "name": "Dr. Pavan Kumar C",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Assistant Professor, Department of Computer Science and Engineering, Indian Institute of Information Technology Dharwad (IIITDwd), Karnataka, India"
+    },
+    {
+      "name": "Dr. Sunil Saumya",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Assistant Professor, Department of Data Science and Intelligent Systems, Indian Institute of Information Technology Dharwad (IIITDwd), Karnataka, India"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "name": "Random Decision Forest Approach for Mitigating SQL Injection Attacks",
+      "summary": "",
+      "highlights": "", //["Quantum Teleportation", "Quantum Cryptography"],
       "startDate": "2018-01-01",
       "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "url": ""
+    },
+    {
+      "name": "Hope Speech Detection on Social Media Platforms",
+      "summary": "",
+      "highlights": "",
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": ""
+    },
+    {
+      "name": "Android Malware Classification",
+      "summary": "",
+      "highlights": "",
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": ""
+    },
+    {
+      "name": "Text Detection in Distorted Social Media Images Using Genetic Programming",
+      "summary": "",
+      "highlights": "",
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": ""
     }
   ]
 }
