@@ -151,6 +151,29 @@
       "url": ""
     }
   ],
+  "awards": [
+    {
+      "title": "IBM iX Interns",
+      "date": "2023-11-20",
+      "awarder": "Internaltional Business Machines",
+      "url": "https://links.spop.ibm.com/servlet/MailView?ms=MjE0MTI2NTAS1&r=Nzg1NDA2NTM2ODg1S0&j=MjQ4MTQ4Mjg3NAS2&mt=1&rt=0",
+      "summary": "Featured in the newsletter as one of the best interns hired"
+    },
+    {
+      "title": "Best Paper Award",
+      "date": "2021-07-11",
+      "awarder": "IEEE",
+      "url": "https://drive.google.com/file/d/1N9JhKxLzjirVjLEoYote_lndfBm_TvYf/view?usp=drive_link",
+      "summary": "Received Best Paper Award for \"Random Decision Forest Approach for Mitigating SQL Injection Attacks"
+    },
+    {
+      "title": "Patent",
+      "date": "2021-07-05",
+      "awarder": "Indian Patent Office",
+      "url": "https://drive.google.com/file/d/1upYjIzULOTExd7MHFDLx5zr7wFig7efU/view?usp=drive_link",
+      "summary": "An Improved HDR Brachytherapy Applicator Apparatus – Filed jointly with others, Ref.No.-P.178.IN, Application No.- 201911044724"
+    }
+  ],
   "volunteer": [
     {
       "organization": "People's Climate March",
@@ -160,15 +183,6 @@
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
   "certificates": [
