@@ -81,21 +81,74 @@
       "publisher": "The Social Science Research Network",
       "releaseDate": "2023-02-05",
       "url": "http://dx.doi.org/10.2139/ssrn.4348525",
-      "summary": "Palaiahnakote Shivakumara, Pavan Kumar C, Pranjal Aggarwal, Shubham Sharma, Pasupuleti Chandana, M Basavanna, Umapada Pal, pre-print availabale at SSRN. DOI: http://doi.org/10.2139/ssrn.4348525"
+      "summary": "Palaiahnakote Shivakumara, Pavan Kumar C, Pranjal Aggarwal, Shubham Sharma, Pasupuleti Chandana, M Basavanna, Umapada Pal, pre-print availabale at SSRN. DOI:http://doi.org/10.2139/ssrn.4348525"
     },
     {
       "name": "Hope Speech Detection on Social Media Platforms",
       "publisher": "Chapman and Hall/CRC",
       "releaseDate": "2022-11-14",
       "url": "https://arxiv.org/abs/2212.07424",
-      "summary": "Pranjal Aggarwal, Jagrut Nemade, Shubham Sharma, Pasupuleti Chandana, Shankar Biradar and Sunil Saumya, Hope Speech Detection on Social Media Platforms, Book Chapter in \"Cyber Crime in Social Media: Theory and Solutions(CCSM)\", August 2022. DOI: https://doi.org/10.1201/9781003304180"
+      "summary": "Pranjal Aggarwal, Jagrut Nemade, Shubham Sharma, Pasupuleti Chandana, Shankar Biradar and Sunil Saumya, Hope Speech Detection on Social Media Platforms, Book Chapter in \"Cyber Crime in Social Media: Theory and Solutions(CCSM)\", August 2022. DOI:https://doi.org/10.1201/9781003304180"
     },
     {
       "name": "Random Decision Forest Approach for Mitigating SQL Injection Attacks",
       "publisher": "2021 IEEE CONECCT",
       "releaseDate": "2021-07-09",
       "url": "https://ieeexplore.ieee.org/abstract/document/9622689",
-      "summary": "Best Paper Award"
+      "summary": "Best Paper Award: Pranjal Aggarwal, Jagrut Nemade, Shubham Sharma, Akash Kumar, Kshitiz Michael and Pavan Kumar C, Random Decision Forest approach for Mitigating SQL Injection Attacks, 7th International Conference on Electronics, Computing and Communication Technologies (CONECCT), Bangalore, India, July 2021. DOI:https://doi.org/10.1109/CONECCT52877.2021.9622689"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Text Detection in Distorted Social Media Images Using Genetic Programming",
+      "summary": "",
+      "highlights": [
+        "Developed a model to detect text in natural images distorted by continuous sharing on social media",
+        "Used MSER to fetch connected components and developed a 3x3 filter using genetic programming",
+        "Classified the components as text and non-text and used the text components with iterative dilation to create bounding boxes around the text"
+      ],
+      "startDate": "2022-01-01",
+      "endDate": "2022-08-01",
+      "url": ""
+    },
+    {
+      "name": "Android Malware Classification",
+      "summary": "",
+      "highlights": [
+        "Implemented sampling techniques to address the issue of working with large datasets",
+        "Implemented Principal Component Analysis (PCA) for exploratory data analysis and to reduce the dimension since the dataset had large number of columns (9503)",
+        "Trained Artificial Neural Networks (ANN) to achieve an accuracy of 67%"
+      ],
+      "startDate": "2021-08-01",
+      "endDate": "2021-12-01",
+      "url": ""
+    },
+    {
+      "name": "Hope Speech Detection on Social Media Platforms",
+      "summary": "",
+      "highlights": [
+        "Trained a Natural Language Processing (NLP) based system to classify text comments as Hope, Non-Hope speech",
+        "Implemented techniques such as Bag of Words, TF-IDF, Word2Vec for text vectorization",
+        "Used data balancing techniques (SMOTE, ADASYN, etc)",
+        "Intriduced a third label (Neutral Speech) for better classification",
+        "Analyzes and experimented on both the datsasets (old and new) with conventional ML models, LSTMs, and adopted BERT Architecture",
+        "Published as a book chapter in Cyber Crime in Social Media (CCSM), August 2022."
+      ],
+      "startDate": "2021-01-01",
+      "endDate": "2021-05-01",
+      "url": ""
+    },
+    {
+      "name": "Random Decision Forest Approach for Mitigating SQL Injection Attacks",
+      "summary": "", //"Trained a classifier to identify and mitigate SQL injection attacks. Collected data(malicious sql queries) and identified features to streamline the data for better insights. Scored a list of keywords according to their risk factors getting an accuracy of about 95%. Presented our paper at IEEE CONECCT, Bangalore, India 2021",
+      "highlights": [
+        "Trained a classifier to identify and mitigate SQL injection attacks",
+        "Collected data (malicious queries) and identified features to streamline the data for better insights",
+        "Scored a list of keywords according to their risk factors getting an accuracy of about 95%"
+      ], //["Quantum Teleportation", "Quantum Cryptography"],
+      "startDate": "2020-05-01",
+      "endDate": "2020-08-01",
+      "url": ""
     }
   ],
   "volunteer": [
@@ -246,40 +299,6 @@
       "name": "Dr. Sunil Saumya",
       "icon": "fa-solid fa-user-tie",
       "reference": "Assistant Professor, Department of Data Science and Intelligent Systems, Indian Institute of Information Technology Dharwad (IIITDwd), Karnataka, India"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Random Decision Forest Approach for Mitigating SQL Injection Attacks",
-      "summary": "",
-      "highlights": "", //["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": ""
-    },
-    {
-      "name": "Hope Speech Detection on Social Media Platforms",
-      "summary": "",
-      "highlights": "",
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": ""
-    },
-    {
-      "name": "Android Malware Classification",
-      "summary": "",
-      "highlights": "",
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": ""
-    },
-    {
-      "name": "Text Detection in Distorted Social Media Images Using Genetic Programming",
-      "summary": "",
-      "highlights": "",
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": ""
     }
   ]
 }
