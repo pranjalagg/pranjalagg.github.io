@@ -2,7 +2,7 @@
 layout: page
 title: android malware classification
 description: cybersecurity is a constant battle against the shadows of malwares; with each threat detected and neutralized, we reinforce the fortress of digital resilience
-img: assets/img/1_project_andmal.png
+img: assets/img/project_imgs/1_project_andmal.png
 importance: 1
 category: work
 related_publications: false
