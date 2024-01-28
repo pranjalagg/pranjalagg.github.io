@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated with a Bachelor's degree from the Indian Institute of Information Technology (IIIT) Dharwad.
+Graduated with a bachelor's degree from the Indian Institute of Information Technology (IIIT) Dharwad
