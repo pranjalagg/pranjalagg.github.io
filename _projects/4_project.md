@@ -2,7 +2,7 @@
 layout: page
 title: text detection in distorted social media images
 description: 
-img:
+img: assets/img/project_imgs/4_project_textdet_0.png
 importance: 3
 category: fun
 related_publications: true
