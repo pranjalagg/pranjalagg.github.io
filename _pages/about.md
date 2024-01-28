@@ -18,8 +18,8 @@ social: true # includes social icons at the bottom of the page
 Hey, thanks for stopping by! 👋
 
 I am a graduate student at the University of Colorado Boulder majoring in Computer Science.
-As a research student, I am broadly interested in all aspects of machine learning and big data. Specifically, my interest lean towards Natural Language Processing and the integration of structured knowledge and statistical models. I am also looking for summer '24 internships.
+As a research student, I am broadly interested in all aspects of machine learning and big data. Specifically, my interest lean towards Natural Language Processing and the integration of structured knowledge and statistical models. Currently, I am `looking for summer '24 internship opportunuties`.
 
-Previously, I did my bachelors in Computer Science from the Indian Institute of Information (IIIT) Dharwad where I was advised by [Dr. Pavan Kumar C](https://iiitdwd.irins.org/profile/102752). Under the guidance of [Dr. Shivakumara Palaiahnakote](https://www.salford.ac.uk/our-staff/shivakumara-palaiahnakote) and Dr. Pavan, I completed my senior year research titled "Tldsmi: Genetic Algorithm Based Network for Text Localization in Distorted Social Media Images" which is available as a preprint at the `Social Science Research Network`.
+Previously, I did my bachelors in Computer Science from the Indian Institute of Information (IIIT) Dharwad where I was advised by [Dr. Pavan Kumar C](https://iiitdwd.irins.org/profile/102752). Under the guidance of [Dr. Shivakumara Palaiahnakote](https://www.salford.ac.uk/our-staff/shivakumara-palaiahnakote) and Dr. Pavan, I completed my senior year research titled "Tldsmi: Genetic Algorithm Based Network for Text Localization in Distorted Social Media Images" which is available as a preprint at the Social Science Research Network.
 
 In my spare time I enjoy doing sports, travelling.
