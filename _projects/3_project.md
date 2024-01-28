@@ -1,7 +1,7 @@
 ---
 layout: page
 title: mitigating sql injection attacks
-description: 
+description: "sql injection: where a single misplaced character can turn a database into a liability"
 img: assets/img/project_imgs/3_project_sqli.png
 importance: 3
 category: work
