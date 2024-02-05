@@ -54,7 +54,7 @@
       "startDate": "2022-05-27",
       "endDate": "2023-07-24",
       "summary": "As a Salesforce Developer, gained valuable experience in the configuration and customization of Salesforce, including creating custom objects, defining record types, and implementing validation rules. My contributions were pivotal in optimizing our Salesforce environment for enhanced functionality and efficiency.",
-      "highlights": ""//["Relativity"]
+      "highlights": "" //["Relativity"]
     },
     {
       "name": "International Business Machines (IBM)",
@@ -223,37 +223,19 @@
       "name": "Software",
       "level": "Proficient",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "C++",
-        "OOP",
-        "Git"
-      ]
+      "keywords": ["Python", "C++", "OOP", "Git"]
     },
     {
       "name": "Software",
       "level": "Familiar",
-      "icon":"fa-solid fa-calendar",
-      "keywords": [
-        "Node.js",
-        "HTML/CSS",
-        "Matlab",
-        "R"
-      ]
+      "icon": "fa-solid fa-calendar",
+      "keywords": ["Node.js", "HTML/CSS", "Matlab", "R"]
     },
     {
       "name": "Other",
       "level": "Other",
       "icon": "fa-solid fa-clipboard-check",
-      "keywords": [
-        "Scikit-learn",
-        "TensorFlow",
-        "Keras",
-        "OpenCV",
-        "NumPy",
-        "Pandas",
-        "Open Source Contribution"
-      ]
+      "keywords": ["Scikit-learn", "TensorFlow", "Keras", "OpenCV", "NumPy", "Pandas", "Open Source Contribution"]
     }
   ],
   "languages": [

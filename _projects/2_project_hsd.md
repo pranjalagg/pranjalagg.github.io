@@ -14,6 +14,7 @@ Even in the toughest of times, humans manage to find hope. No better way to illu
 Social media has a huge impact on society. Everyone is free to state their opinions and they could be both positive and negative. Constructive criticism is always good but the way things are turning in today’s world, social media has laid its roots deep into our society. It has come up with its own pros and cons. Thus, in order to minimize the cons, we have tried to come up with an NLP based model for hope speech detection {% cite aggarwalhope %}. Removing those harsh comments will definitely help in uplifting the society and strengthening our beliefs.
 
 The model is comprised of three components: the pre-processing unit, the feature extraction and data balancing unit, and the classification unit, as illustrated in the figure.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/project_imgs/2_project_hsd_1.png" title="Model" class="img-fluid rounded z-depth-1" %}

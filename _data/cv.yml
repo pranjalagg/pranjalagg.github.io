@@ -4,7 +4,7 @@
     - name: Full Name
       value: Pranjal Aggarwal
     - name: Date of Birth
-      value: 
+      value:
     - name: Languages
       value: English, Hindi
 
@@ -62,7 +62,7 @@
     - title: Hope Speech Detection on Social Media Platforms
       year: 2022
       description: Chapman and Hall/CRC
-    
+
     - title: Random Decision Forest Approach for Mitigating SQL Injection Attacks
       year: 2021
       description: IEEE CONECCT
