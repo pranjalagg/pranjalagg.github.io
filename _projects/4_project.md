@@ -16,11 +16,11 @@ Following were the components of the genetic programming model:
 1. `Population`: Genetic algorithm maintains a population of individuals – a collection of candidate solutions to the problem at hand–at any given time. In our method the population consisted of randomly generated a GP trees consisting of convolution operations as their nodes. A typical node is a convolution operation having a kernel with its size ranging from 1×1 to 5×5 and values in the range [-3, 3] followed by ReLU activation function. This step outputs a feature map as its output. The figure below shows an example of a GP tree from the initial population.
 
 2. `Fitness Function`: Individuals are evaluated using a fitness function at each iteration of the process (also called the target function). This is the function to solve the problem or improve the results. Individuals with higher fitness scores are more likely to be picked to reproduce and represent the next generation. The quality of the solution increases with time and the fitness value rises, the process can be stopped once a suitable fitness value is found.
-For the calculation of the fitness value, we applied the convolution operation obtained from the population of the GP tree on a set of MSER components obtained from 5 images. Since the output of the GP tree is a feature vector of 10,000 dimensions, we applied Principal Component Analysis (PCA) to reduce its dimensions. This is further given to the SVM classifier for its training. Once done, the testing dataset is used to calculate the recall for the trained model which is eventually used as the fitness value for the respective individual. This means that the GP tree that results in a higher recall value than others is a fitter individual than the others. Fig. 5 shows all the steps performed to calculate the fitness value for each individual.
+For the calculation of the fitness value, we applied the convolution operation obtained from the population of the GP tree on a set of MSER components obtained from 5 images. Since the output of the GP tree is a feature vector of 10,000 dimensions, we applied Principal Component Analysis (PCA) to reduce its dimensions. This is further given to the SVM classifier for its training. Once done, the testing dataset is used to calculate the recall for the trained model which is eventually used as the fitness value for the respective individual. This means that the GP tree that results in a higher recall value than others is a fitter individual than the others. The figure below shows all the steps performed to calculate the fitness value for each individual.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_imgs/4_project_textdet_1.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid path="assets/img/project_imgs/4_project_textdet_1.png" title="GP Tree" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
@@ -43,7 +43,7 @@ The figure below shows how the crossover operation taking place between two GP t
 </div>
 
 5. `Mutation`: Based on a single chosen tree, the mutation operation creates a new tree . The goal of mutation is to refresh the population at random intervals and introduce random changes. For the purpose of our model, we have introduced a mutation of 35% in the population.
-The operation of the final evolved GP tree obtained from the above steps on text and non-text components of both original and distorted images are depicted in Fig. 6 (b). 
+The operation of the final evolved GP tree obtained from the above steps on text and non-text components of both original and distorted images are depicted in the below figure. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
