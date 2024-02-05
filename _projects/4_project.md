@@ -35,7 +35,7 @@ The figure below shows how the crossover operation taking place between two GP t
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_imgs/4_project_textdet_2.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid path="assets/img/project_imgs/4_project_textdet_2.png" title="Crossover" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
@@ -47,7 +47,7 @@ The operation of the final evolved GP tree obtained from the above steps on text
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_imgs/4_project_textdet_3.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid path="assets/img/project_imgs/4_project_textdet_3.png" title="Mutation" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
