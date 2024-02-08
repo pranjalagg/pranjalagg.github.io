@@ -6,6 +6,7 @@ _site
 .DS_store
 .ruby-version
 .tweet-cache
+.git_commit_sync
 Gemfile.lock
 node_modules/
 vendor
