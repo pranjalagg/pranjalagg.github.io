@@ -20,7 +20,7 @@ Following were the components of the genetic programming model:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_imgs/4_project_textdet_1.png" title="GP Tree" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_1.png" title="GP Tree" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
@@ -33,7 +33,7 @@ Following were the components of the genetic programming model:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_imgs/4_project_textdet_2.png" title="Crossover" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_2.png" title="Crossover" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
@@ -44,7 +44,7 @@ Following were the components of the genetic programming model:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_imgs/4_project_textdet_3.png" title="Mutation" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_3.png" title="Mutation" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">

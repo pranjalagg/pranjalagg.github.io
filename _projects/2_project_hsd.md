@@ -17,7 +17,7 @@ The model is comprised of three components: the pre-processing unit, the feature
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project_imgs/2_project_hsd_1.png" title="Model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_imgs/2_project_hsd_1.png" title="Model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 In the pre-processing unit, the dataset undergoes cleanup, involving the removal of unwanted text portions, expansion of abbreviations, and lemmatization for converting words to their root forms. The resulting output is then directed to the feature extraction unit, where the TF-IDF vectorization technique is employed to discern the significance of specific words or phrases within the dataset. Consequently, sentences in the dataset are transformed into vectors with distinct values. These vectors are subsequently utilized to balance the dataset through methods such as SMOTE and ADASYN, involving the addition of synthetic samples.
