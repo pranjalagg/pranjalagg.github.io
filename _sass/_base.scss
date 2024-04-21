@@ -449,6 +449,7 @@ footer.fixed-bottom {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
+    text-align: center;
   }
 
   a {
@@ -711,8 +712,8 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          margin-bottom: 0.5rem;
+          width: 100%;
 
           a {
             color: white;
@@ -775,6 +776,10 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
+        a.award.btn {
+          // border-color: var(--global-highlight-color);
+          background-color: var(--global-fill-color);
+        }
       }
 
       .badges {
@@ -831,6 +836,12 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+    }
+    div.award.hidden {
+      border: dashed 1px var(--global-bg-color);
+    }
+    div.award.hidden.open {
+      border-color: var(--global-highlight-color);
     }
   }
 }

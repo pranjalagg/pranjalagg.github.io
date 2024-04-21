@@ -66,9 +66,21 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
+acm_id: # your dl.acm.org/profile/id
+blogger_url: # your blogger URL
+bluesky_url: # your bluesky URL
+dblp_url: # your DBLP profile url
+discord_id: # your discord id (18-digit unique numerical identifier)
+facebook_id: # your facebook id
+flickr_id: # your flickr id
 github_username: pranjalagg # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: # your X handle
+ieee_id: # your ieeexplore.ieee.org/author/id
+instagram_id: # your instagram id
+kaggle_id: # your kaggle id
+keybase_username: # your keybase user name
+lastfm_id: # your lastfm id
+lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: pranjal-aggarwal # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -77,30 +89,22 @@ semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 osf_id: # your OSF ID
+pinterest_id: # your pinterest id
+publons_id: # your ID on Publons
+quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
 scopus_id: # your profile on Scopus
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
+spotify_id: # your spotify id
+stackoverflow_id: # your stackoverflow id
+unsplash_id: # your unsplash id
+wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-dblp_url: # your DBLP profile url
-stackoverflow_id: # your stackoverflow id
-kaggle_id: # your kaggle id
-lastfm_id: # your lastfm id
-spotify_id: # your spotify id
-pinterest_id: # your pinterest id
-unsplash_id: # your unsplash id
-instagram_id: # your instagram id
-facebook_id: # your facebook id
+work_url: # work page URL
+x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
-wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
   Feel free to drop me an email
@@ -181,7 +185,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -208,7 +212,6 @@ exclude:
   - bin
   - CONTRIBUTING.md
   - CUSTOMIZE.md
-  - docker-compose.yml
   - Dockerfile
   - FAQ.md
   - Gemfile
@@ -219,6 +222,7 @@ exclude:
   - package-lock.json
   - purgecss.config.js
   - README.md
+  - readme_preview/
   - vendor
 keep_files:
   - CNAME
@@ -315,7 +319,27 @@ enable_publication_badges:
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
-  [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
+  [
+    abbr,
+    abstract,
+    additional_info,
+    altmetric,
+    arxiv,
+    award,
+    award_name,
+    bibtex_show,
+    blog,
+    code,
+    html,
+    pdf,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    video,
+    website,
+  ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3 # leave blank to always show all authors
@@ -382,6 +406,7 @@ enable_navbar_social: false # enables displaying social links in the navbar on t
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------
 # Library versions
