@@ -50,6 +50,7 @@
     {
       "name": "International Business Machines (IBM)",
       "position": "Application Developer",
+      "location": "Hyderabad, India",
       "url": "https://www.ibm.com/",
       "startDate": "2022-05-27",
       "endDate": "2023-07-24",
@@ -59,6 +60,7 @@
     {
       "name": "International Business Machines (IBM)",
       "position": "Intern",
+      "location": "Bangalore, India",
       "url": "https://www.ibm.com/",
       "startDate": "2022-01-12",
       "endDate": "2023-05-11",
@@ -68,6 +70,7 @@
     {
       "name": "Indian Institute of Technology (IIT) BHU",
       "position": "Intern",
+      "location": "Varanasi, India",
       "url": "https://www.iitbhu.ac.in/",
       "startDate": "2019-06-11",
       "endDate": "2019-07-22",
