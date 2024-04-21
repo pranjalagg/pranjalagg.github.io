@@ -205,7 +205,6 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
-  - "*.yml"
   - bin
   - CONTRIBUTING.md
   - CUSTOMIZE.md
