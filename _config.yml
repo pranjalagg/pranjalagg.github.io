@@ -205,10 +205,10 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - "*.yml"
   - bin
   - CONTRIBUTING.md
   - CUSTOMIZE.md
-  - docker-compose.yml
   - Dockerfile
   - FAQ.md
   - Gemfile
@@ -219,6 +219,7 @@ exclude:
   - package-lock.json
   - purgecss.config.js
   - README.md
+  - readme_preview/
   - vendor
 keep_files:
   - CNAME
