@@ -173,14 +173,8 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color);
   }
 
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
-    }
+  .card-body {
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   }
 }
 
