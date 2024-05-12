@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: Pranjal_Aggarwal_resume.pdf
-description: Looking for summer internships 2024.
+description: Looking for co-op 2024 in Boulder/Denver area.
 toc:
   sidebar: left
 ---
