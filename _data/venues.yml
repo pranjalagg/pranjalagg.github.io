@@ -9,3 +9,7 @@
 "SSRN":
   url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4348525
   color: "#154881"
+
+"SemEval":
+  url: https://semeval.github.io/
+  color: "#e82729"
