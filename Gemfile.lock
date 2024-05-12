@@ -51,8 +51,7 @@ GEM
     ffi (1.16.3)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
-    google-protobuf (4.26.1-x86_64-linux)
-      rake (>= 13)
+    google-protobuf (3.25.3)
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -130,7 +129,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     latex-decode (0.4.0)
-    libv8-node (21.7.2.0-x86_64-linux)
+    libv8-node (21.7.2.0)
     liquid (4.0.4)
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -149,7 +148,7 @@ GEM
     mutex_m (0.2.0)
     namae (1.2.0)
       racc (~> 1.7)
-    nokogiri (1.16.4-x86_64-linux)
+    nokogiri (1.16.3)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -176,6 +175,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  aarch64-linux
   x86_64-linux-gnu
 
 DEPENDENCIES
