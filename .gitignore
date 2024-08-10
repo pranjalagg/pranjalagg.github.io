@@ -8,6 +8,7 @@ _site
 .tweet-cache
 .git_commit_sync
 Gemfile.lock
+assets/libs/
 node_modules/
 vendor
 
