@@ -165,8 +165,9 @@ ul.task-list input[type="checkbox"] {
   background-color: var(--global-card-bg-color);
   text-align: left;
 
-  img {
+  .card-img {
     width: 100%;
+    padding-top: 1.25rem;
   }
 
   .card-title {
@@ -174,7 +175,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card-body {
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    padding: 1.25rem 1.25rem 0rem 1.25rem;
   }
 }
 
@@ -629,14 +630,8 @@ footer.sticky-bottom {
     }
   }
 
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
-    }
+  .col {
+    padding-bottom: 1rem;
   }
 
   .grid-sizer,
@@ -1088,10 +1083,6 @@ nav[data-toggle="toc"] {
         color: var(--global-theme-color);
       }
     }
-  }
-
-  .card-item {
-    margin-bottom: 10px;
   }
 
   .post-meta {
