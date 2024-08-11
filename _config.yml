@@ -47,9 +47,11 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: false
+search_enabled: true
+socials_in_search: true
 
 # Dimensions
-max_width: 800px
+max_width: 930px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -130,7 +132,7 @@ blog_name: thoughts # blog_name will be displayed in your blog page
 blog_description: science and beyond
 blog_note: my old ideas and notes would be up here someday
 permalink: /blog/:year/:title/
-lsi: true # produce an index (latent semantic indexing) for related posts
+lsi: false # produce an index (latent semantic indexing) for related posts
 
 # Pagination
 pagination:
@@ -262,7 +264,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt"]
+  exclude: ["robots.txt", "assets/js/search/*.js"]
   uglifier_args:
     harmony: true
 
