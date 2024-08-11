@@ -104,20 +104,27 @@
       {%- endfor -%}
 
       {%- comment -%}
-      {% for collection in site.collections %}
+      // This block will include every collection in the config.yml in the search without explicitly writing a block for that component. Right now, we don't want the posts and news to appear in the search, so this block is commented. If this is uncommented, we don't need the above blocks for posts and projects
+      {%- for collection in site.collections -%}
         {%- for item in collection.docs -%}
           {
-            {%- assign title = item.title | escape -%}
+            {%- if item.inline -%}
+              {%- assign title = item.content | remove: '<p>' | remove: '</p>' | escape | strip -%}
+            {%- else -%}
+              {%- assign title = item.title | escape -%}
+            {%- endif -%}
             id: "{{ collection.label }}-{{ title | slugify }}",
-            title: "{{ title }}",
+            title: '{{ title | emojify }}',
             description: "{{ item.description | strip_html | strip_newlines | escape }}",
             section: "{{ collection.label | capitalize }}",
-            handler: () => {
-              window.location.href = "{{ item.url | relative_url }}";
-            },
+            {%- unless item.inline -%}
+              handler: () => {
+                window.location.href = "{{ item.url | relative_url }}";
+              },
+            {%- endunless -%}
           },
         {%- endfor -%}
-      {% endfor %}
+      {%- endfor -%}
       {%- endcomment -%}
 
       {%- if site.socials_in_search -%}
