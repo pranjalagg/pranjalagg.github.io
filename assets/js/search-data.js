@@ -56,19 +56,21 @@ ninja.data = [
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
-  
-  {%- for post in site.posts -%}
-    {
-      {%- assign title = post.title | escape -%}
-      id: "post-{{ title | slugify }}",
-      title: "{{ title }}",
-      description: "{{ post.description | strip_html | strip_newlines | escape }}",
-      section: "Posts",
-      handler: () => {
-        window.location.href = "{{ post.url | relative_url }}";
+
+  {%- if site.posts_in_search -%}
+    {%- for post in site.posts -%}
+      {
+        {%- assign title = post.title | escape -%}
+        id: "post-{{ title | slugify }}",
+        title: "{{ title }}",
+        description: "{{ post.description | strip_html | strip_newlines | escape }}",
+        section: "Posts",
+        handler: () => {
+          window.location.href = "{{ post.url | relative_url }}";
+        },
       },
-    },
-  {%- endfor -%}
+    {%- endfor -%}
+  {%- endif -%}
 
   {%- for project in site.projects -%}
     {
