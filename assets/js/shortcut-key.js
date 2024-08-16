@@ -1,0 +1,1 @@
+document.addEventListener("readystatechange",()=>{if("interactive"===document.readyState){let e=navigator.platform.toUpperCase().indexOf("MAC")>=0,t=document.querySelector("#search-toggle");t&&e&&(t.title="search (\u2318+k)")}});
