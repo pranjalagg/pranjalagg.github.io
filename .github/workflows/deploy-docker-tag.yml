@@ -4,6 +4,15 @@
 #   push:
 #     tags:
 #       - "v*"
+#     paths:
+#       - ".github/workflows/deploy-docker-tag.yml"
+#       - ".github/workflows/deploy-image.yml"
+#       - "bin/entry_point.sh"
+#       - "Dockerfile"
+#       - "Gemfile"
+#       - "Gemfile.lock"
+#       - "package.json"
+#       - "package-lock.json"
 
 # jobs:
 #   build:
