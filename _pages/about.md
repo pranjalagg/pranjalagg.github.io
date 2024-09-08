@@ -7,8 +7,13 @@ subtitle: Graduate Student | <a href='https://www.colorado.edu/cs/'>University o
 profile:
   align: right
   image: prof_pic.jpg
+  image_compare: true
+  alt_image: prof_pic_gen.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+
+images:
+  compare: true
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
