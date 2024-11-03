@@ -32,7 +32,13 @@
       "startDate": "2023-08-20",
       "endDate": "2025-05-20",
       "score": "4",
-      "courses": ["Design and Analysis of Algorithms", "Natural Language Processing (NLP)", "Computer Vision", "Data Center Scale Computing", "Operating Systems"]
+      "courses": [
+        "Design and Analysis of Algorithms",
+        "Natural Language Processing (NLP)",
+        "Computer Vision",
+        "Data Center Scale Computing",
+        "Operating Systems"
+      ]
     },
     {
       "institution": "Indian Institute of Information Technology (IIIT), Dharwad",
