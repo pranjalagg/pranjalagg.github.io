@@ -8,8 +8,8 @@
     "url": "",
     "summary": "",
     "location": {
-      "address": "Glenwood Dr",
-      "postalCode": "80301",
+      "address": "",
+      "postalCode": "80302",
       "city": "Boulder",
       "countryCode": "US",
       "region": "Colorado"
@@ -32,7 +32,7 @@
       "startDate": "2023-08-20",
       "endDate": "2025-05-20",
       "score": "4",
-      "courses": ["Design and Analysis of Algorithms", "Natural Language Processing (NLP)", "Computer Vision", "Linux System Administration"]
+      "courses": ["Design and Analysis of Algorithms", "Natural Language Processing (NLP)", "Computer Vision", "Data Center Scale Computing", "Operating Systems"]
     },
     {
       "institution": "Indian Institute of Information Technology (IIIT), Dharwad",
@@ -48,13 +48,33 @@
   ],
   "work": [
     {
+      "name": "Department of Computer Science, CU Boulder",
+      "position": "Graduate Teaching Assistant",
+      "location": "Boulder, Colorado",
+      "url": "https://www.colorado.edu/cs/",
+      "startDate": "2024-08-19",
+      "endDate": "Present",
+      "summary": "Graduate Teaching Assistant for the course - \"CSCI 3753 - Operating Systems\", a junior level computer science course. Served as an instructor for a lecture-based recitation section for about 40 students. Responsible for conducting recitations, grading assignments and exams, and holding office hours.",
+      "highlights": ""
+    },
+    {
+      "name": "Institute of Cognitive Sciences, CU Boulder",
+      "position": "Graduate Research Assistant",
+      "location": "Boulder, Colorado",
+      "url": "https://www.colorado.edu/ics/",
+      "startDate": "2024-05-15",
+      "endDate": "2024-08-23",
+      "summary": "Examined the reasoning capabilities of large language models (LLMs) for spoken language understanding during interpersonal interactions, specifically in job interview responses.",
+      "highlights": ""
+    },
+    {
       "name": "International Business Machines (IBM)",
       "position": "Application Developer",
       "location": "Hyderabad, India",
       "url": "https://www.ibm.com/",
       "startDate": "2022-05-27",
       "endDate": "2023-07-24",
-      "summary": "As a Salesforce Developer, gained valuable experience in the configuration and customization of Salesforce, including creating custom objects, defining record types, and implementing validation rules. My contributions were pivotal in optimizing our Salesforce environment for enhanced functionality and efficiency.",
+      "summary": "As a Salesforce Developer, worked on full life cycle of user facing applications by developing clean and efficient code, delivering timely solutions and substantially reducing backlogs.",
       "highlights": "" //["Relativity"]
     },
     {
@@ -80,25 +100,32 @@
   ],
   "publications": [
     {
+      "name": "CUNLP at SemEval-2024 Task 8: Classify Human and AI Generated Text",
+      "publisher": "Association for Computational Linguistics",
+      "releaseDate": "2024-06-21",
+      "url": "https://doi.org/10.18653/v1/2024.semeval-1.1",
+      "summary": "Pranjal Aggarwal, Deepanshu Sachdeva"
+    },
+    {
       "name": "Tldsmi: Genetic Algorithm Based Network for Text Localization in Distorted Social Media Images",
       "publisher": "The Social Science Research Network",
       "releaseDate": "2023-02-05",
       "url": "http://dx.doi.org/10.2139/ssrn.4348525",
-      "summary": "Palaiahnakote Shivakumara, Pavan Kumar C, Pranjal Aggarwal, Shubham Sharma, Pasupuleti Chandana, M Basavanna, Umapada Pal, pre-print availabale at SSRN. DOI:http://doi.org/10.2139/ssrn.4348525"
+      "summary": "Palaiahnakote Shivakumara, Pavan Kumar C, Pranjal Aggarwal, Shubham Sharma, Pasupuleti Chandana, M Basavanna, Umapada Pal"
     },
     {
       "name": "Hope Speech Detection on Social Media Platforms",
       "publisher": "Chapman and Hall/CRC",
       "releaseDate": "2022-11-14",
       "url": "https://arxiv.org/abs/2212.07424",
-      "summary": "Pranjal Aggarwal, Jagrut Nemade, Shubham Sharma, Pasupuleti Chandana, Shankar Biradar and Sunil Saumya, Hope Speech Detection on Social Media Platforms, Book Chapter in \"Cyber Crime in Social Media: Theory and Solutions(CCSM)\", August 2022. DOI:https://doi.org/10.1201/9781003304180"
+      "summary": "Pranjal Aggarwal, Jagrut Nemade, Shubham Sharma, Pasupuleti Chandana, Shankar Biradar and Sunil Saumya"
     },
     {
       "name": "Random Decision Forest Approach for Mitigating SQL Injection Attacks",
       "publisher": "2021 IEEE CONECCT",
       "releaseDate": "2021-07-09",
       "url": "https://ieeexplore.ieee.org/abstract/document/9622689",
-      "summary": "Best Paper Award: Pranjal Aggarwal, Jagrut Nemade, Shubham Sharma, Akash Kumar, Kshitiz Michael and Pavan Kumar C, Random Decision Forest approach for Mitigating SQL Injection Attacks, 7th International Conference on Electronics, Computing and Communication Technologies (CONECCT), Bangalore, India, July 2021. DOI:https://doi.org/10.1109/CONECCT52877.2021.9622689"
+      "summary": "Best Paper Award: Pranjal Aggarwal, Jagrut Nemade, Shubham Sharma, Akash Kumar, Kshitiz Michael and Pavan Kumar C"
     }
   ],
   "projects": [
@@ -269,9 +296,17 @@
   // ],
   "volunteer": [
     {
+      "organization": "Rocky Mountain AI Interest Group (RMAIIG)",
+      "position": "Student Board Member",
+      "url": "https://www.meetup.com/rmaiig/",
+      "startDate": "2024-03-17",
+      "summary": "RMAIIG is a community of enthusiastic individuals captivated by the recent advancements in generative AI. This group aims to explore and discuss the latest developments in AI, focusing on tools like ChatGPT, DALL-E, Midjourney, and many others. We also encourage and provide a platform for developers to showcase the cool stuff that they are building with AI tools. Additionally, we examine the impact of these tools on business, education, the workplace, law, entrepreneurship, and society as a whole.",
+      "highlights": ""
+    },
+    {
       "organization": "Bhumi Foundation, India",
       "position": "Audiobook Narrator",
-      "url": "",
+      "url": "https://www.bhumi.ngo/",
       "startDate": "2022-12-01",
       "endDate": "2022-12-10",
       "summary": "Recorded course textbooks as audibooks for specially abled students",

@@ -2,7 +2,7 @@
 layout: page
 title: hope speech detection
 description: hope is the beacon that illuminates our darkest moments
-img: assets/img/project_imgs/2_project_hsd.png
+img: assets/img/project_imgs/2_project_hsd.jpg
 importance: 2
 category: work
 related_publications: true
