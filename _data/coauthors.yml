@@ -1,11 +1,15 @@
-"jagrut":
+"nemade":
   - firstname: ["Jagrut", "J.", "J. N.", "Jagrut Nemade"]
-    url:
+    url: https://jagrutn.github.io/
 
-"shubham":
+"sharma":
   - firstname: ["Shubham", "S.", "S. S.", "Shubham Sharma"]
     url:
 
-"pavan":
+"kumar":
   - firstname: ["Pavan", "P.", "P. C.", "Pavan Kumar C"]
     url:
+
+"palaiahnakote":
+  - firstname: ["Shivakumara", "S.", "S. P.", "Shivakumara Palaiahnakote"]
+    url: https://www.salford.ac.uk/our-staff/shivakumara-palaiahnakote
