@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: Pranjal_Aggarwal_resume.pdf
+cv_pdf: https://drive.google.com/file/d/1H-9q31tqq8ukUKHCVUk20GzMRzmorsHO/view
 description: Looking for co-op 2024 in Boulder/Denver area.
 toc:
   sidebar: left
