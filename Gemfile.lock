@@ -44,7 +44,7 @@ GEM
       rexml
     csl-styles (1.0.1.11)
       csl (~> 1.0)
-    css_parser (1.19.1)
+    css_parser (1.21.0)
       addressable
     cssminify2 (2.0.1)
     csv (3.3.2)
@@ -247,6 +247,7 @@ PLATFORMS
   arm-linux-musleabihf
   arm64-darwin
   x86_64-darwin
+  x86_64-linux
   x86_64-linux-gnu
   x86_64-linux-musl
 
@@ -277,4 +278,4 @@ DEPENDENCIES
   ostruct
 
 BUNDLED WITH
-   2.6.2
+   2.5.7
