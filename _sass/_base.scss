@@ -786,8 +786,8 @@ footer.sticky-bottom {
           }
         }
         a.award.btn {
-          // border-color: var(--global-highlight-color);
-          background-color: var(--global-fill-color);
+          border-color: var(--global-theme-color);
+          // background-color: var(--global-fill-color);
         }
       }
 
@@ -850,7 +850,7 @@ footer.sticky-bottom {
       border: dashed 1px var(--global-bg-color);
     }
     div.award.hidden.open {
-      border-color: var(--global-highlight-color);
+      border-color: var(--global-theme-color);
     }
   }
 }
