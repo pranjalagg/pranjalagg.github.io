@@ -19,8 +19,11 @@ Following were the components of the genetic programming model:
 2. `Fitness Function`: Individuals are evaluated using a fitness function at each iteration of the process (also called the target function). This is the function to solve the problem or improve the results. Individuals with higher fitness scores are more likely to be picked to reproduce and represent the next generation. The quality of the solution increases with time and the fitness value rises, the process can be stopped once a suitable fitness value is found. For the calculation of the fitness value, we applied the convolution operation obtained from the population of the GP tree on a set of MSER components obtained from 5 images. Since the output of the GP tree is a feature vector of 10,000 dimensions, we applied Principal Component Analysis (PCA) to reduce its dimensions. This is further given to the SVM classifier for its training. Once done, the testing dataset is used to calculate the recall for the trained model which is eventually used as the fitness value for the respective individual. This means that the GP tree that results in a higher recall value than others is a fitter individual than the others. The figure below shows all the steps performed to calculate the fitness value for each individual.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_1.png" title="GP Tree" class="img-fluid rounded" %}
+    <div class="col-sm mt-3 mt-md-0 only-light">
+        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_1_light.png" title="GP Tree" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0 only-dark">
+        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_1_dark.png" title="GP Tree" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
@@ -32,8 +35,11 @@ Following were the components of the genetic programming model:
 4. `Crossover`: The crossover operation generates two new trees (offspring) from two selected trees (parents). The operation begins by selecting two nodes at random from the parent trees and then swapping the subtrees to create a new tree based on the selected nodes. Through various experimentation and trials, we had applied a crossover of 50% to our population. The figure below shows how the crossover operation taking place between two GP trees by swapping their subtrees from their nodes.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_2.png" title="Crossover" class="img-fluid rounded" %}
+    <div class="col-sm mt-3 mt-md-0 only-light">
+        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_2_light.png" title="Crossover" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0 only-dark">
+        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_2_dark.png" title="Crossover" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
@@ -43,8 +49,11 @@ Following were the components of the genetic programming model:
 5. `Mutation`: Based on a single chosen tree, the mutation operation creates a new tree . The goal of mutation is to refresh the population at random intervals and introduce random changes. For the purpose of our model, we have introduced a mutation of 35% in the population. The operation of the final evolved GP tree obtained from the above steps on text and non-text components of both original and distorted images are depicted in the below figure.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_3.png" title="Mutation" class="img-fluid rounded" %}
+    <div class="col-sm mt-3 mt-md-0 only-light">
+        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_3_light.png" title="Mutation" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0 only-dark">
+        {% include figure.liquid loading="eager" path="assets/img/project_imgs/4_project_textdet_3_dark.png" title="Mutation" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">

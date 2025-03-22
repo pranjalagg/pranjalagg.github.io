@@ -5,6 +5,7 @@
 @use "sass:color";
 
 :root {
+  color-scheme: light;
   --global-bg-color: #fffefe; //#{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
@@ -66,10 +67,11 @@
     display: none;
   }
 
-  .repo-img-light {
+  .only-light {
     display: block;
   }
-  .repo-img-dark {
+
+  .only-dark {
     display: none;
   }
 
@@ -85,6 +87,7 @@
 }
 
 html[data-theme="dark"] {
+  color-scheme: dark;
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
@@ -129,10 +132,11 @@ html[data-theme="dark"] {
   // .fa-moon {
   //   display: none;
   // }
-  .repo-img-light {
+  .only-light {
     display: none;
   }
-  .repo-img-dark {
+
+  .only-dark {
     display: block;
   }
 }
