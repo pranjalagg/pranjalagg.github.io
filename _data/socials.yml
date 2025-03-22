@@ -1,0 +1,51 @@
+# this file contains the social media links and usernames of the author
+# the commented lines are the default social media links supported by the template
+# the socials will be displayed in the order they are defined here
+
+# acm_id: # dl.acm.org/profile/id
+# blogger_url: # blogger URL
+# bluesky_url: # bluesky URL
+# dblp_url: # DBLP profile url
+# discord_id: # discord id (18-digit unique numerical identifier)
+email: pranjal.aggarwal@colorado.edu # email address
+# facebook_id: # facebook id
+# flickr_id: # flickr id
+scholar_userid: C8gMS2gAAAAJ # Google Scholar ID
+github_username: pranjalagg # GitHub user name
+# gitlab_username: # GitLab user name
+# ieee_id: # ieeexplore.ieee.org/author/id
+# inspirehep_id: # Inspire HEP author ID
+# instagram_id: # instagram id
+# kaggle_id: # kaggle id
+# keybase_username: # keybase user name
+# lastfm_id: # lastfm id
+# lattes_id: # ID on Lattes (Brazilian Lattes CV)
+# leetcode_id: # LeetCode id
+linkedin_username: pranjal-aggarwal # LinkedIn user name
+# mastodon_username: # mastodon instance+username in the format instance.tld/@username
+# medium_username: # Medium username
+# orcid_id: # ORCID ID
+# osf_id: # OSF ID
+# pinterest_id: # pinterest id
+# publons_id: # ID on Publons
+# quora_username: # Quora username
+# research_gate_profile: # profile on ResearchGate
+# rss_icon: true # set to true to show the RSS icon (need to comment to disable it)
+# scopus_id: # profile on Scopus
+# semanticscholar_id: # Semantic Scholar ID
+# spotify_id: # spotify id
+# stackoverflow_id: # stackoverflow id
+# telegram_username: # Telegram user name
+# unsplash_id: # unsplash id
+# wechat_qr: # filename of wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+# whatsapp_number: # WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+# wikidata_id: # wikidata id
+# wikipedia_id: # wikipedia id (Case sensitive)
+# work_url: # work page URL
+# x_username: # X handle
+# youtube_id: # youtube channel id (youtube.com/@<youtube_id>)
+# zotero_username: # zotero username
+# custom_social: # can be any name here other than the ones already defined above
+  # logo: https://avatars.githubusercontent.com/u/54495980?v=4 # can be png, svg, jpg
+  # title: Custom Social
+  # url: https://github.com/pranjalagg  # can be any url
