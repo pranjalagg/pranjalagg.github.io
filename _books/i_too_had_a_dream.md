@@ -3,7 +3,7 @@ layout: book-review
 title: "I Too Had A Dream"
 author: Verghese Kurien
 cover: # assets/img/book_covers/devils_advocate-KT.jpg
-olid:  # OL14873311W # use Open Library ID to fetch cover (if no `cover` is provided)
+olid: # OL14873311W # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 8174364072 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: autobiography, nonfiction
 tags: top-100
