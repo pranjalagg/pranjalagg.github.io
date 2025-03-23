@@ -13,3 +13,7 @@
 "SemEval":
   url: https://semeval.github.io/
   color: "#e82729"
+
+"ICMI-MLMI":
+  url: https://dl.acm.org/conference/icmi-mlmi
+  color: "#000000"
