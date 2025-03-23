@@ -1,3 +1,4 @@
+# This workflow is not working. Not sure why. :(
 name: Check lighthouse scores
 
 on:
