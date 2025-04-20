@@ -8,6 +8,7 @@ on:
     paths:
       - "assets/**"
       - "_sass/**"
+      - "_scripts/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -31,6 +32,7 @@ on:
     paths:
       - "assets/**"
       - "_sass/**"
+      - "_scripts/**"
       - "**.bib"
       - "**.html"
       - "**.js"

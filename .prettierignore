@@ -7,4 +7,4 @@ assets/js/search/*.js
 assets/plotly/demo.html
 _sass/font-awesome/*.scss
 _sass/tabler-icons/*.scss
-_scripts/search.liquid.js
+_scripts/*
