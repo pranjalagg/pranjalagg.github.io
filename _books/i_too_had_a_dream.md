@@ -8,6 +8,7 @@ isbn: 8174364072 # use ISBN to fetch cover (if no `olid` is provided, dashes are
 categories: autobiography, nonfiction
 tags: top-100
 buy_link: https://www.amazon.com/Too-Had-Dream-Verghese-Kurien/dp/8174364072
+date: 2024-08-23
 started: 2019 # YYYY-MM-DD
 finished: 2019 # YYYY-MM-DD
 released: 2005
