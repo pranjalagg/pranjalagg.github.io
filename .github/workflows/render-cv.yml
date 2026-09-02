@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - master
+      - sync-branch
     paths:
       - "_data/cv.yml"
       - "_data/cv.yaml"
