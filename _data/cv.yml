@@ -1,98 +1,302 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Pranjal Aggarwal
-    - name: Date of Birth
-      value:
-    - name: Languages
-      value: English, Hindi
+# rendercv schema: https://github.com/rendercv/rendercv/blob/main/schema.json
+#
+# This file is the single source of truth for the CV page (/cv/) and the
+# rendered PDF (see .github/workflows/render-cv.yml). It was synced from the
+# now-obsolete assets/json/resume.json on 2026-09-02.
+#
+# Top-level `cv:` keys are restricted by the RenderCV schema
+# (name, headline, location, email, phone, website, photo, social_networks,
+# custom_connections, sections). Extra keys are only allowed inside section
+# entries, where the al-folio includes (_includes/cv/*.liquid) pick them up.
 
-- title: Education
-  type: time_table
-  contents:
-    - title: MS
-      institution: University of Colorado Boulder, CO, USA
-      year: 2023 - 2025
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: BTech
-      institution: Indian Institute of Information Technology (IIIT) Dharwad, KA, India
-      year: 2018 - 2022
-      description:
-        - Description 1.
-        - Description 2.
+cv:
+  name: Pranjal Aggarwal
+  headline: ML Researcher / Engineer
+  location: Colorado, USA
+  email: pranjal.aggarwal@colorado.edu
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Application Developer
-      institution: International Business Machines (IBM)
-      year: 2022 - 2023
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Intern
-      institution: IBM India Pvt. Ltd.
-      year: 2022
-      description:
-        - Description 1.
-        - Description 2.
+  social_networks:
+    - network: LinkedIn
+      username: pranjal-aggarwal
 
-    - title: Intern
-      institution: Indian Institute of Technology (IIT) BHU
-      year: 2019
+  sections:
+    Education:
+      - institution: University of Colorado Boulder
+        area: Computer Science
+        degree: MS
+        start_date: 2023-08-20
+        end_date: 2025-05-20
+        location: Colorado, USA
+        url: https://www.colorado.edu
+        score: "4"
+        courses:
+          - Design and Analysis of Algorithms
+          - Natural Language Processing (NLP)
+          - Computer Vision
+          - Data Center Scale Computing
+          - Operating Systems
 
-- title: Publications
-  type: time_table
-  contents:
-    - title: Tldsmi - Genetic Algorithm Based Network for Text Localization in Distorted Social Media Images
-      year: 2023
-      description: The Social Science Ressearch Network
+      - institution: Indian Institute of Information Technology (IIIT), Dharwad
+        area: Computer Science and Engineering
+        degree: BTech
+        start_date: 2018-08-13
+        end_date: 2022-05-27
+        location: Karnataka, India
+        url: https://www.iiitdwd.ac.in
+        score: "8.74"
 
-    - title: Hope Speech Detection on Social Media Platforms
-      year: 2022
-      description: Chapman and Hall/CRC
+    Experience:
+      - company: Department of Computer Science, CU Boulder
+        position: Graduate Teaching Assistant
+        location: Boulder, Colorado
+        url: https://www.colorado.edu/cs/
+        start_date: 2024-08-19
+        end_date: 2025-05-08
+        summary: >-
+          Graduate Teaching Assistant for the course "CSCI 3753 - Operating
+          Systems", a junior level computer science course. Served as an
+          instructor for a lecture-based recitation section for about 40
+          students. Responsible for conducting recitations, grading assignments
+          and exams, and holding office hours.
 
-    - title: Random Decision Forest Approach for Mitigating SQL Injection Attacks
-      year: 2021
-      description: IEEE CONECCT
+      - company: Institute of Cognitive Sciences, CU Boulder
+        position: Graduate Research Assistant
+        location: Boulder, Colorado
+        url: https://www.colorado.edu/ics/
+        start_date: 2024-05-15
+        end_date: 2024-08-23
+        summary: >-
+          Examined the reasoning capabilities of large language models (LLMs)
+          for spoken language understanding during interpersonal interactions,
+          specifically in job interview responses.
 
-- title: Awards and Achievements
-  type: time_table
-  contents:
-    - year: 2023
-      items:
-        - IBM iX Interns
-    - year: 2021
-      items:
-        - Best Paper Award
-    - year: 2021
-      items:
-        - Patent
+      - company: International Business Machines (IBM)
+        position: Application Developer
+        location: Hyderabad, India
+        url: https://www.ibm.com/
+        start_date: 2022-05-27
+        end_date: 2023-07-24
+        summary: >-
+          As a Salesforce Developer, worked on full life cycle of user facing
+          applications by developing clean and efficient code, delivering timely
+          solutions and substantially reducing backlogs.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+      - company: International Business Machines (IBM)
+        position: Intern
+        location: Bangalore, India
+        url: https://www.ibm.com/
+        start_date: 2022-01-12
+        end_date: 2023-05-11
+        summary: >-
+          Worked as a shadow resource to transform the management system for
+          NextEra Energy's Florida Power and Light (FPL) division.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u>  Playing the Piano, Badminton
+      - company: Indian Institute of Technology (IIT) BHU
+        position: Intern
+        location: Varanasi, India
+        url: https://www.iitbhu.ac.in/
+        start_date: 2019-06-11
+        end_date: 2019-07-22
+        summary: >-
+          Worked on the project "Design and Fabrication of a Brachytherapy
+          Applicator" which is used in the treatment of cervical cancer.
+
+    Volunteer:
+      - company: Rocky Mountain AI Interest Group (RMAIIG)
+        position: Student Board Member
+        location: Boulder, CO
+        url: https://www.meetup.com/rmaiig/
+        start_date: 2024-03-17
+        end_date: 2025-05-15
+        summary: >-
+          RMAIIG is a community of enthusiastic individuals captivated by the
+          recent advancements in generative AI. This group aims to explore and
+          discuss the latest developments in AI, focusing on tools like ChatGPT,
+          DALL-E, Midjourney, and many others. We also encourage and provide a
+          platform for developers to showcase the cool stuff that they are
+          building with AI tools. Additionally, we examine the impact of these
+          tools on business, education, the workplace, law, entrepreneurship,
+          and society as a whole.
+
+      - company: Bhumi Foundation, India
+        position: Audiobook Narrator
+        location: Remote
+        url: https://www.bhumi.ngo/
+        start_date: 2022-12-01
+        end_date: 2022-12-10
+        summary: Recorded course textbooks as audiobooks for specially abled students.
+
+    Publications:
+      - title: "CUNLP at SemEval-2024 Task 8: Classify Human and AI Generated Text"
+        authors:
+          - "**Pranjal Aggarwal**"
+          - Deepanshu Sachdeva
+        journal: Association for Computational Linguistics
+        publisher: Association for Computational Linguistics
+        date: 2024-06-21
+        url: https://doi.org/10.18653/v1/2024.semeval-1.1
+
+      - title: "Tldsmi: Genetic Algorithm Based Network for Text Localization in Distorted Social Media Images"
+        authors:
+          - Palaiahnakote Shivakumara
+          - Pavan Kumar C
+          - "**Pranjal Aggarwal**"
+          - Shubham Sharma
+          - Pasupuleti Chandana
+          - M Basavanna
+          - Umapada Pal
+        journal: The Social Science Research Network
+        publisher: The Social Science Research Network
+        date: 2023-02-05
+        url: http://dx.doi.org/10.2139/ssrn.4348525
+
+      - title: Hope Speech Detection on Social Media Platforms
+        authors:
+          - "**Pranjal Aggarwal**"
+          - Jagrut Nemade
+          - Shubham Sharma
+          - Pasupuleti Chandana
+          - Shankar Biradar
+          - Sunil Saumya
+        journal: Chapman and Hall/CRC
+        publisher: Chapman and Hall/CRC
+        date: 2022-11-14
+        url: https://arxiv.org/abs/2212.07424
+
+      - title: Random Decision Forest Approach for Mitigating SQL Injection Attacks
+        authors:
+          - "**Pranjal Aggarwal**"
+          - Jagrut Nemade
+          - Shubham Sharma
+          - Akash Kumar
+          - Kshitiz Michael
+          - Pavan Kumar C
+        journal: 2021 IEEE CONECCT
+        publisher: 2021 IEEE CONECCT
+        date: 2021-07-09
+        url: https://ieeexplore.ieee.org/abstract/document/9622689
+        summary: Best Paper Award.
+
+    Projects:
+      - name: Text Detection in Distorted Social Media Images Using Genetic Programming
+        start_date: 2022-01-01
+        end_date: 2022-08-01
+        highlights:
+          - Developed a model to detect text in natural images distorted by continuous sharing on social media
+          - Used MSER to fetch connected components and developed a 3x3 filter using genetic programming
+          - Classified the components as text and non-text and used the text components with iterative dilation to create bounding boxes around the text
+
+      - name: Android Malware Classification
+        start_date: 2021-08-01
+        end_date: 2021-12-01
+        highlights:
+          - Implemented sampling techniques to address the issue of working with large datasets
+          - Implemented Principal Component Analysis (PCA) for exploratory data analysis and to reduce the dimension since the dataset had a large number of columns (9503)
+          - Trained Artificial Neural Networks (ANN) to achieve an accuracy of 67%
+
+      - name: Hope Speech Detection on Social Media Platforms
+        start_date: 2021-01-01
+        end_date: 2021-05-01
+        highlights:
+          - Trained a Natural Language Processing (NLP) based system to classify text comments as Hope, Non-Hope speech
+          - Implemented techniques such as Bag of Words, TF-IDF, Word2Vec for text vectorization
+          - Used data balancing techniques (SMOTE, ADASYN, etc.)
+          - Introduced a third label (Neutral Speech) for better classification
+          - Analyzed and experimented on both the datasets (old and new) with conventional ML models, LSTMs, and adopted BERT architecture
+          - Published as a book chapter in Cyber Crime in Social Media (CCSM), August 2022
+
+      - name: Random Decision Forest Approach for Mitigating SQL Injection Attacks
+        start_date: 2020-05-01
+        end_date: 2020-08-01
+        highlights:
+          - Trained a classifier to identify and mitigate SQL injection attacks
+          - Collected data (malicious queries) and identified features to streamline the data for better insights
+          - Scored a list of keywords according to their risk factors getting an accuracy of about 95%
+
+    Awards:
+      - name: IBM iX Interns
+        title: IBM iX Interns
+        date: 2023-11-20
+        awarder: International Business Machines
+        url: https://links.spop.ibm.com/servlet/MailView?ms=MjE0MTI2NTAS1&r=Nzg1NDA2NTM2ODg1S0&j=MjQ4MTQ4Mjg3NAS2&mt=1&rt=0
+        summary: Featured in the newsletter as one of the best interns hired.
+
+      - name: Best Paper Award
+        title: Best Paper Award
+        date: 2021-07-11
+        awarder: IEEE
+        url: https://drive.google.com/file/d/1N9JhKxLzjirVjLEoYote_lndfBm_TvYf/view?usp=drive_link
+        summary: Received Best Paper Award for "Random Decision Forest Approach for Mitigating SQL Injection Attacks".
+
+      - name: Patent
+        title: Patent
+        date: 2021-07-05
+        awarder: Indian Patent Office
+        url: https://drive.google.com/file/d/1upYjIzULOTExd7MHFDLx5zr7wFig7efU/view?usp=drive_link
+        summary: "An Improved HDR Brachytherapy Applicator Apparatus - filed jointly with others. Ref. No. P.178.IN, Application No. 201911044724."
+
+    Skills:
+      - name: Software
+        level: Proficient
+        icon: fa-solid fa-hashtag
+        summary: "Python, C++, OOP, Git"
+        keywords:
+          - Python
+          - C++
+          - OOP
+          - Git
+
+      - name: Software
+        level: Familiar
+        icon: fa-solid fa-calendar
+        summary: "Node.js, HTML/CSS, Matlab, R"
+        keywords:
+          - Node.js
+          - HTML/CSS
+          - Matlab
+          - R
+
+      - name: Other
+        level: Other
+        icon: fa-solid fa-clipboard-check
+        summary: "Scikit-learn, TensorFlow, Keras, OpenCV, NumPy, Pandas, Open Source Contribution"
+        keywords:
+          - Scikit-learn
+          - TensorFlow
+          - Keras
+          - OpenCV
+          - NumPy
+          - Pandas
+          - Open Source Contribution
+
+    Languages:
+      - label: English
+        details: Fluent
+        language: English
+        fluency: Fluent
+
+      - label: Hindi
+        details: Native speaker
+        language: Hindi
+        fluency: Native speaker
+
+    References:
+      - name: Dr. Shivakumara Palaiahnakote
+        icon: fa-solid fa-user-tie
+        reference: Associate Professor, Faculty of Computer Science and Information Technology, University of Malaya (UM), Malaysia
+        summary: Associate Professor, Faculty of Computer Science and Information Technology, University of Malaya (UM), Malaysia
+
+      - name: Prof. Umapada Pal
+        icon: fa-solid fa-user-tie
+        reference: Professor and Head, Computer Vision and Pattern Recognition Unit, Indian Statistical Institute (ISI), Kolkata, India
+        summary: Professor and Head, Computer Vision and Pattern Recognition Unit, Indian Statistical Institute (ISI), Kolkata, India
+
+      - name: Dr. Pavan Kumar C
+        icon: fa-solid fa-user-tie
+        reference: Assistant Professor, Department of Computer Science and Engineering, Indian Institute of Information Technology Dharwad (IIITDwd), Karnataka, India
+        summary: Assistant Professor, Department of Computer Science and Engineering, Indian Institute of Information Technology Dharwad (IIITDwd), Karnataka, India
+
+      - name: Dr. Sunil Saumya
+        icon: fa-solid fa-user-tie
+        reference: Assistant Professor, Department of Data Science and Intelligent Systems, Indian Institute of Information Technology Dharwad (IIITDwd), Karnataka, India
+        summary: Assistant Professor, Department of Data Science and Intelligent Systems, Indian Institute of Information Technology Dharwad (IIITDwd), Karnataka, India
