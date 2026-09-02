@@ -74,7 +74,8 @@
 
           {% if entry.courses or entry.highlights %}
             <ul class="items">
-              {% for item in entry.courses %}
+              {% assign courses = entry.courses | split: ', ' %}
+              {% for item in courses %}
                 <li>
                   <span class="item">{{ item }}</span>
                 </li>

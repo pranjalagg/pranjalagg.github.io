@@ -29,12 +29,7 @@ cv:
         location: Colorado, USA
         url: https://www.colorado.edu
         score: "4"
-        courses:
-          - Design and Analysis of Algorithms
-          - Natural Language Processing (NLP)
-          - Computer Vision
-          - Data Center Scale Computing
-          - Operating Systems
+        courses: "Design and Analysis of Algorithms, Natural Language Processing (NLP), Computer Vision, Data Center Scale Computing, Operating Systems"
 
       - institution: Indian Institute of Information Technology (IIIT), Dharwad
         area: Computer Science and Engineering
@@ -240,34 +235,19 @@ cv:
         level: Proficient
         icon: fa-solid fa-hashtag
         summary: "Python, C++, OOP, Git"
-        keywords:
-          - Python
-          - C++
-          - OOP
-          - Git
+        keywords: "Python, C++, OOP, Git"
 
       - name: Software
         level: Familiar
         icon: fa-solid fa-calendar
         summary: "Node.js, HTML/CSS, Matlab, R"
-        keywords:
-          - Node.js
-          - HTML/CSS
-          - Matlab
-          - R
+        keywords: "Node.js, HTML/CSS, Matlab, R"
 
       - name: Other
         level: Other
         icon: fa-solid fa-clipboard-check
         summary: "Scikit-learn, TensorFlow, Keras, OpenCV, NumPy, Pandas, Open Source Contribution"
-        keywords:
-          - Scikit-learn
-          - TensorFlow
-          - Keras
-          - OpenCV
-          - NumPy
-          - Pandas
-          - Open Source Contribution
+        keywords: "Scikit-learn, TensorFlow, Keras, OpenCV, NumPy, Pandas, Open Source Contribution"
 
     Languages:
       - label: English
