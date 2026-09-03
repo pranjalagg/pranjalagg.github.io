@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: https://drive.google.com/file/d/1H-9q31tqq8ukUKHCVUk20GzMRzmorsHO/view
+cv_pdf: /assets/rendercv/rendercv_output/Pranjal_Aggarwal_CV.pdf # can also be replaced with a pdf link (like Google Drive)
 cv_format: rendercv # options: rendercv, jsonresume
 description: Looking for co-op 2024 in Boulder/Denver area.
 toc:
