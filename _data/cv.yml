@@ -12,12 +12,14 @@
 cv:
   name: Pranjal Aggarwal
   headline: ML Researcher / Engineer
-  location: Colorado, USA
+  location: San Francisco, Bay Area
   email: pranjal.aggarwal@colorado.edu
 
   social_networks:
     - network: LinkedIn
       username: pranjal-aggarwal
+    - network: GitHub
+      username: pranjalagg
 
   sections:
     Education:
@@ -31,8 +33,8 @@ cv:
         score: "4"
         courses: "Design and Analysis of Algorithms, Natural Language Processing (NLP), Computer Vision, Data Center Scale Computing, Operating Systems"
 
-      - institution: Indian Institute of Information Technology (IIIT), Dharwad
-        area: Computer Science and Engineering
+      - institution: Indian Institute of Information Technology, Dharwad
+        area: Computer Science
         degree: BTech
         start_date: 2018-08-13
         end_date: 2022-05-27
@@ -41,6 +43,17 @@ cv:
         score: "8.74"
 
     Experience:
+      - company: ChorusView Inc.
+        position: ML Engineer
+        location: Mountain View, CA
+        url: https://www.chorusview.com
+        start_date: 2025-05-27
+        end_date: present
+        summary: >-
+          Machine learning engineer on ChorusView's supply-chain intelligence platform,
+          turning sensor data into real-time visibility and operational insights.
+          Also Designed and shipped the company's first RAG application so teams could
+          get their queries answered grounded in internal knowledge.
       - company: Department of Computer Science, CU Boulder
         position: Graduate Teaching Assistant
         location: Boulder, Colorado
@@ -67,7 +80,7 @@ cv:
 
       - company: International Business Machines (IBM)
         position: Application Developer
-        location: Hyderabad, India
+        location: India
         url: https://www.ibm.com/
         start_date: 2022-05-27
         end_date: 2023-07-24
@@ -78,7 +91,7 @@ cv:
 
       - company: International Business Machines (IBM)
         position: Intern
-        location: Bangalore, India
+        location: India
         url: https://www.ibm.com/
         start_date: 2022-01-12
         end_date: 2023-05-11
@@ -88,7 +101,7 @@ cv:
 
       - company: Indian Institute of Technology (IIT) BHU
         position: Intern
-        location: Varanasi, India
+        location: India
         url: https://www.iitbhu.ac.in/
         start_date: 2019-06-11
         end_date: 2019-07-22
